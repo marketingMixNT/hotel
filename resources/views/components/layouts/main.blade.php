@@ -43,7 +43,7 @@
     @include('shared.mobile-buttons') --}}
 
     <!--SCRIPTS-->
-    {{-- <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script> --}}
+    <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>
 
 
 
