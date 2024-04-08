@@ -1,0 +1,13 @@
+@use "./utilites/fonts";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Jazmin-ExtraLight", "Times New Roman", Times, serif;
+}
+
+span,a{
+    font-family: "AktivGrotesk", sans-serif;
+}
