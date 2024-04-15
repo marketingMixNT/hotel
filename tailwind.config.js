@@ -13,9 +13,13 @@ export default {
             },
             fontFamily: {
               JazminThin:["Jazmin-Thin", "Times New Roman", "Times", "serif"],
-              JazminNormal:["Jazmin-ExtraLight", "Times New Roman", "Times", "serif"]
+              JazminNormal:["Jazmin-ExtraLight", "Times New Roman", "Times", "serif"],
+              AktivGrotesk:["AktivGrotesk", 'sans-serif']
             },
             colors: {
+                primary:{
+                    400:'#a4897c'
+                },
                 fontLight: "#fff",
                 fontDark: "#000",
             },

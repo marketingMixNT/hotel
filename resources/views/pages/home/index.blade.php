@@ -9,6 +9,9 @@
 
 
 @include('pages.home.sections.hero')
+@include('pages.home.sections.apartments')
+@include('pages.home.sections.attractions')
+@include('pages.home.sections.features')
 
 
 

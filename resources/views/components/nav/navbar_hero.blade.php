@@ -1,4 +1,4 @@
-<div class="relative w-full flex flex-row-reverse justify-between items-center">
+<section class="relative w-full flex flex-row-reverse justify-between items-center">
 
 
 
@@ -19,4 +19,4 @@
 
     </div>
 
-</div>
+</section>
