@@ -38,9 +38,13 @@
     {{-- </div>
 
     <!--FOOTER-->
+    
 
-    @include('shared.footer')
+  
     @include('shared.mobile-buttons') --}}
+
+    <!--FOOTER-->
+    @include('shared.footer')
 
     <!--SCRIPTS-->
     <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>
