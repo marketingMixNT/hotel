@@ -22,7 +22,12 @@ export default {
                 },
                 fontLight: "#fff",
                 fontDark: "#000",
+
+                bgLight:{
+                    600:"#f6f6f6"
+                }
             },
+
         },
     },
     plugins: [],
