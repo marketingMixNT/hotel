@@ -1,25 +1,9 @@
 import './bootstrap';
-// import './partials/hamburger'
+import './partials/hamburger'
+import './partials/navbar'
 
 
-const navbar = document.querySelector('#navbar')
 
-
-const  navbarOnScroll = () => {
-    let pozycjaScrolla = window.scrollY;
-  
-    if (pozycjaScrolla >= 250) {
-      navbar.classList.add('show')
-      navbar.classList.remove('hiddenNavbar')
-
-    } else {
-        navbar.classList.add('hiddenNavbar')
-        navbar.classList.remove('show')
-
-    }
-}
-
-window.addEventListener('scroll', navbarOnScroll);
 
 
 var container = document.getElementById('container');
@@ -32,3 +16,21 @@ document.querySelectorAll('.hover\\:bg').forEach((div) => {
         container.style.backgroundImage = 'url(/assets/images/desktop/willaPodScietaLipa-25.jpg)';
     });
 });
+
+
+const hamburgerBtn = document.querySelector('#hamburger')
+const menu = document.querySelector("#menu");
+
+
+const hamburgerHandler = () => {
+    hamburgerBtn.classList.toggle('is-active')
+    menu.classList.toggle("menu-open");
+    menu.classList.toggle("menu-close");
+}
+
+hamburgerBtn.addEventListener('click',hamburgerHandler)
+
+// const footerSpan = document.querySelector("#year");
+// const currentYear = new Date().getFullYear();
+
+// footerSpan.innerHTML = currentYear;

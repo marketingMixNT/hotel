@@ -26,29 +26,23 @@
 {{-- <body class="overflow-x-hidden"> --}}
 <body >
  <!--NAVIGATION-->
-<x-nav.navbar/>
+ <x-menu.mobile_menu/>
+ @include('shared.navbar')
 
-    {{-- <!--NAVIGATION-->
-    @include('shared.nav.top-bar')
-    @include('shared.nav.nav-bar')
-    @include('shared.nav.mobile-menu')
     <!--PRELOADER-->
-    @include('shared.preloader')
+    {{-- @include('shared.preloader') --}}
 
-    <div> --}}
+
 
         {{ $slot }}
-    {{-- </div>
+   
 
-    <!--FOOTER-->
-    
 
-  
-    @include('shared.mobile-buttons') --}}
 
     <!--FOOTER-->
     @include('shared.footer')
-
+    
+    {{-- @include('shared.mobile-buttons')  --}}
     <!--SCRIPTS-->
     <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>
 

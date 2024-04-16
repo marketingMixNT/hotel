@@ -77,3 +77,6 @@
 .btn-white {
     @include btn-border-drawing(white, #c0b391, 1px, bottom, right);
 }
+.btn-gold{
+    @include btn-border-drawing(#a4897c, #34251a, 1px, bottom, right);
+}
