@@ -12,7 +12,7 @@
         @include('pages.home.sections.testimonials')
         @include('pages.home.sections.villa_description')
         @include('pages.home.sections.features')
-        {{-- @include('pages.home.sections.attractions') --}}
+        @include('pages.home.sections.attractions')
         {{-- @include('pages.home.sections.cta') --}}
         {{-- @include('pages.home.sections.localization') --}}
         {{-- @include('pages.home.sections.gallery') --}}
