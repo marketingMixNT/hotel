@@ -1,6 +1,7 @@
 import './bootstrap';
 import './partials/hamburger'
 import './partials/navbar'
+import './swiper/testimonials'
 
 
 
@@ -18,17 +19,6 @@ document.querySelectorAll('.hover\\:bg').forEach((div) => {
 });
 
 
-const hamburgerBtn = document.querySelector('#hamburger')
-const menu = document.querySelector("#menu");
-
-
-const hamburgerHandler = () => {
-    hamburgerBtn.classList.toggle('is-active')
-    menu.classList.toggle("menu-open");
-    menu.classList.toggle("menu-close");
-}
-
-hamburgerBtn.addEventListener('click',hamburgerHandler)
 
 // const footerSpan = document.querySelector("#year");
 // const currentYear = new Date().getFullYear();

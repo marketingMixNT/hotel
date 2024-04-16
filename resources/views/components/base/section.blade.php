@@ -1,0 +1,1 @@
+<section class="py-20 max-w-screen-xl mx-auto px-16 xl:px-0">{{$slot}}</section>
