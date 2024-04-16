@@ -1,12 +1,15 @@
 <div
-    class="flex flex-col justify-between items-center  px-4 sm:px-8 py-20 h-screen w-full bg-[url('/public/assets/images/mobile/willaPodScietaLipa-2.jpg')] md:bg-[url('/public/assets/images/desktop/willaPodScietaLipa-25.jpg')] bg-cover bg-center bg-no-repeat bg-fixed bg-gray-400 bg-blend-multiply ">
+    class="flex flex-col justify-between items-center px-4 sm:px-8 py-20 h-screen w-full bg-cover bg-center bg-no-repeat bg-fixed bg-gray-400 bg-blend-multiply 
+    bg-[url('/public/assets/images/mobile/willaPodScietaLipa-34.jpg')]
+    md:bg-[url('/public/assets/images/desktop/willaPodScietaLipa-34.jpg')]
+    xl:bg-[url('/public/assets/images/willaPodScietaLipa-34.jpg')] ">
 
     <x-nav.navbar_hero />
 
     <div class="flex flex-col justify-center items-center gap-12 text-center ">
 
         <h1 class="text-5xl lg:text-7xl text-fontLight mb-32" >Twoje miejsce w Tatrach</h1>
-        <x-base.button type='transparent' class="md:hidden">Zarezerwuj</x-base.button>
+        <x-base.button-link  class="btn-white md:hidden">Zarezerwuj</x-base.button-link>
     </div>
 
     <!--RESERVATION PANEL-->
