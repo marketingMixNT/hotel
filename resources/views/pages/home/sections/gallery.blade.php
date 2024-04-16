@@ -2,7 +2,7 @@
 
     <div class="text-center max-w-screen-xl mx-auto">
 
-        <h2 class="uppercase font-JazminNormal text-2xl text-primary-400 tracking-widest">Tatrzański raj</h2>
+        <h2 class="uppercase font-JazminNormal text-2xl text-primary-400 tracking-widest">Willa pod Ściętą Lipą</h2>
 
         <div class="grid grid-cols-4 gap-6 mt-16">
             <div class="h-[300px] w-[300px]">

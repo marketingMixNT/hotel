@@ -18,7 +18,11 @@ export default {
             },
             colors: {
                 primary:{
-                    400:'#a4897c'
+                    400:'#c0b391',
+                    600:'#a4897c'
+                },
+                secondary:{
+400:"#34251a"
                 },
                 fontLight: "#fff",
                 fontDark: "#000",

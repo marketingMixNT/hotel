@@ -1,0 +1,193 @@
+// $border-width: 1px;
+// $border-du: 0.2s;
+
+// @mixin button-border-animation($ease-height, $ease-width) {
+//     position: absolute;
+//     content: "";
+//     display: block;
+//     width: 0;
+//     height: 0;
+
+//     transition: height $border-du ease-in $ease-height,
+//         width $border-du ease-in $ease-width;
+//     @apply bg-primary-600 text-primary-600;
+// }
+
+// .button {
+//     background-color: transparent;
+//     cursor: pointer;
+//     border: 1px solid white;
+//     width: 100%;
+//     color: white;
+//     transition: color $border-du;
+//     @apply py-3 font-JazminThin tracking-wide;
+
+//     &:focus {
+//         outline: 0;
+//     }
+
+//     &-container {
+//         position: relative;
+//         text-align: center;
+//         margin: 2em;
+//         width: 150px;
+//     }
+
+//     &-outer,
+//     &-inner {
+//         &::before {
+//             @include button-border-animation($border-du, 0s);
+//             width: $border-width;
+//         }
+
+//         &::after {
+//             @include button-border-animation(0s, $border-du);
+//             height: $border-width;
+//         }
+
+//         &:hover {
+//             &::before {
+//                 height: 100%;
+//             }
+
+//             &::after {
+//                 width: 100%;
+//             }
+//         }
+//     }
+
+//     &-outer {
+//         &::before,
+//         &::after {
+//             right: 0;
+//             bottom: 0;
+//             z-index: 10;
+//         }
+//     }
+
+//     &-inner {
+//         &::before,
+//         &::after {
+//             top: 0;
+//             left: 0;
+//             z-index: 1;
+//         }
+//     }
+   
+
+//     &--gold {
+//         &.button-outer,
+//         .button-inner {
+//             &::before,
+//             &::after {
+//                 @apply bg-primary-600;
+//             }
+//         }
+
+//         .button-inner {
+//             &:hover {
+//                 @apply text-primary-600;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+// $border-width: 1px;
+// $border-du: 0.2s;
+
+// @mixin button-border-animation($ease-height, $ease-width) {
+//     position: absolute;
+//     content: "";
+//     display: block;
+//     width: 0;
+//     height: 0;
+
+//     transition: height $border-du ease-in $ease-height,
+//         width $border-du ease-in $ease-width;
+//     @apply bg-primary-600 text-primary-600;
+// }
+
+// .button--brown {
+//     background-color: transparent;
+//     cursor: pointer;
+//     border: 1px solid red;
+//     width: 100%;
+//     color: red;
+//     transition: color $border-du;
+//     @apply py-3 font-JazminThin tracking-wide;
+
+//     &:focus {
+//         outline: 0;
+//     }
+//     & a{
+//         color:red
+//     }
+
+//     &-container {
+//         position: relative;
+//         text-align: center;
+//         margin: 2em;
+//         width: 150px;
+//     }
+
+//     &-outer,
+//     &-inner {
+//         &::before {
+//             @include button-border-animation($border-du, 0s);
+//             width: $border-width;
+//         }
+
+//         &::after {
+//             @include button-border-animation(0s, $border-du);
+//             height: $border-width;
+//         }
+
+//         &:hover {
+//             &::before {
+//                 height: 100%;
+//             }
+
+//             &::after {
+//                 width: 100%;
+//             }
+//         }
+//     }
+
+//     &-outer {
+//         &::before,
+//         &::after {
+//             right: 0;
+//             bottom: 0;
+//             z-index: 10;
+//         }
+//     }
+
+//     &-inner {
+//         &::before,
+//         &::after {
+//             top: 0;
+//             left: 0;
+//             z-index: 1;
+//         }
+//     }
+   
+
+//     &--gold {
+//         &.button-outer,
+//         .button-inner {
+//             &::before,
+//             &::after {
+//                 @apply bg-primary-600;
+//             }
+//         }
+
+//         .button-inner {
+//             &:hover {
+//                 @apply text-primary-600;
+//             }
+//         }
+//     }
+// }

@@ -11,8 +11,9 @@
     <meta name="description" content='@yield('description')'>
     <!--Cannonical-->
     <link rel="canonical" href="{{ url()->current() }}" />
-    {{-- <!--Favicons-->
+   <!--Favicons-->
     @include('partials.favicon')
+    {{--
     <!--Facebook Meta-->
     @include('partials.facebook-meta')
     <!--Fonts-->
@@ -24,6 +25,8 @@
 
 {{-- <body class="overflow-x-hidden"> --}}
 <body >
+ <!--NAVIGATION-->
+<x-nav.navbar/>
 
     {{-- <!--NAVIGATION-->
     @include('shared.nav.top-bar')
