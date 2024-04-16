@@ -1,7 +1,7 @@
 import './bootstrap';
 import './partials/hamburger'
 import './partials/navbar'
-import './swiper/testimonials'
+import './swiper/description_images'
 
 
 
