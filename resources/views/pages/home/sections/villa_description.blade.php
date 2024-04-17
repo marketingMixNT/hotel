@@ -58,7 +58,7 @@
 
 
             <span
-                class=" text-7xl xs:text-8xl md:text-9xl test bg-[url('/public/assets/text.jpeg')] bg-cover uppercase tracking-widest font-bold">Tatry</span>
+                class="text-bg text-7xl xs:text-8xl md:text-9xl  bg-[url('/public/assets/text.jpeg')] bg-cover uppercase tracking-widest font-bold">Tatry</span>
 
 
 

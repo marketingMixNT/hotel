@@ -2,7 +2,7 @@
 
     {{-- @section('title', __('home.title'))
     @section('description', __('home.description')) --}}
-    @section('title', 'Willa pod Ściętą Lipą - Luksusowy Wypoczynek w Sercu Tatr')
+    @section('title', 'Willa pod Ściętą Lipą - luksusowy wypoczynek w sercu Tatr')
     @section('description', 'Odkryj Willę Pod Ściętą Lipą w Zębie, idealne miejsce na wypoczynek w Tatrach. Komfortowe
         pokoje, spektakularne widoki i bliskość natury. Idealna baza do górskich wędrówek.')
 
