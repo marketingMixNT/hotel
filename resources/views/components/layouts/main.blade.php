@@ -21,10 +21,9 @@
 
 </head>
 
-{{-- <body class="overflow-x-hidden"> --}}
 <body >
  <!--NAVIGATION-->
- <x-menu.mobile_menu/>
+ @include('shared.mobile_menu')
  @include('shared.navbar')
 
     <!--PRELOADER-->

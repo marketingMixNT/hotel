@@ -25,3 +25,5 @@ import 'swiper/swiper-bundle.css';
       },
       modules: [Autoplay,EffectFade],
   });
+
+  

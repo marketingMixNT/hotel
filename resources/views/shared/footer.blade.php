@@ -14,7 +14,7 @@
                 </div>
             </div>
             {{-- CENTER --}}
-            <a href="/" class="mx-auto ">
+            <a href="{{route('home')}}" class="mx-auto ">
                
                 <img src="{{asset('assets/logo/logo.png')}}" alt="logo Willi pod Ściętą Lipą" class="w-96">
             </a>

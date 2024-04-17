@@ -6,7 +6,7 @@
         image="{{asset('assets/icons/mobile-buttons/click.svg')}}">
        Zarezerwuj</x-mobile_buttons_item>
     <x-mobile_buttons_item
-        href=""
+        href="{{route('gallery')}}"
         target="_blank"
         image="{{asset('assets/icons/mobile-buttons/gallery.svg')}}">
         <span>Galeria</span></x-mobile_buttons_item>

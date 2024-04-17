@@ -5,9 +5,9 @@
 
     <ul class="flex flex-col justify-center items-center gap-10">
         <x-menu.mobile_menu_item href="#">Rezerwacja</x-menu.mobile_menu_item>
-        <x-menu.mobile_menu_item href="#">Willa</x-menu.mobile_menu_item>
-        <x-menu.mobile_menu_item href="#">Galeria</x-menu.mobile_menu_item>
-        <x-menu.mobile_menu_item href="#">Kontakt</x-menu.mobile_menu_item>
+        <x-menu.mobile_menu_item href="{{route('villa')}}">Willa</x-menu.mobile_menu_item>
+        <x-menu.mobile_menu_item href="{{route('gallery')}}">Galeria</x-menu.mobile_menu_item>
+        <x-menu.mobile_menu_item href="{{route('contact')}}">Kontakt</x-menu.mobile_menu_item>
     </ul>
 
 

@@ -18,9 +18,9 @@
 
 
     <ul class="hidden sm:flex justify-center items-center gap-10">
-        <li><a href="" class="hover-link text-xl">Willa</a></li>
-        <li><a href="" class="hover-link text-xl">Galeria</a></li>
-        <li><a href="" class="hover-link text-xl">Kontakt</a></li>
+        <li><a href="{{route('villa')}}" class="hover-link text-xl">Willa</a></li>
+        <li><a href="{{route('gallery')}}" class="hover-link text-xl">Galeria</a></li>
+        <li><a href="{{route('contact')}}" class="hover-link text-xl">Kontakt</a></li>
     </ul>
 
     <x-nav.hamburger class="sm:hidden" />
