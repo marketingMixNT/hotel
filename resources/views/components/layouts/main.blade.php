@@ -13,11 +13,9 @@
     <link rel="canonical" href="{{ url()->current() }}" />
    <!--Favicons-->
     @include('partials.favicon')
-    {{--
     <!--Facebook Meta-->
-    @include('partials.facebook-meta')
-    <!--Fonts-->
-    @include('partials.fonts') --}}
+    @include('partials.facebook_meta')
+    
     <!-- Scripts -->
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
@@ -41,8 +39,7 @@
 
     <!--FOOTER-->
     @include('shared.footer')
-    
-    {{-- @include('shared.mobile-buttons')  --}}
+    @include('shared.mobile_buttons') 
     <!--SCRIPTS-->
     <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>
 

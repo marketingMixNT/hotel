@@ -8,7 +8,7 @@ xl:bg-[url('/public/assets/images/willaPodScietaLipa-32.jpg')] bg-cover bg-cente
     <div class="max-w-screen-xl xl:mx-auto text-center py-32 flex flex-col justify-center items-center gap-10  mx-4 sm:mx-12 lg:mx-6">
 
         
-        <x-base.heading_big class="text-white">Zarezerwuj Swoje Miejsce w Sercu Tatr
+        <x-base.heading_big class="text-white">Zarezerwuj swoje miejsce w sercu Tatr
         </x-base.heading_big>
         <x-base.heading_small>Zapewnij sobie niezapomniany wypoczynek – zarezerwuj pobyt w Willi Pod Ściętą Lipą już dziś!</x-base.heading_small>
 

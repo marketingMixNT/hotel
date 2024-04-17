@@ -22,7 +22,8 @@ export default {
                     600:'#a4897c'
                 },
                 secondary:{
-400:"#34251a"
+400:"#34251a",
+600:"#1c140e"
                 },
                 fontLight: "#fff",
                 fontDark: "#000",

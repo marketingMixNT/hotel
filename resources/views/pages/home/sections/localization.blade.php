@@ -5,7 +5,7 @@
         <div class="flex flex-col gap-6">
             <h2 class="text-6xl font-JazminThin ">Nasza lokalizacja</h2>
             <span>ul. św.Anny 2, 34-521 Ząb</span>
-            <a href="https://maps.app.goo.gl/5EzjAy6uCrdJiejeA" class="hover--link">Zobacz na mapie</a>
+            <a href="https://maps.app.goo.gl/5EzjAy6uCrdJiejeA" class="hover-link">Zobacz na mapie</a>
 
 
             <div class="grid grid-cols-2 gap-4">
