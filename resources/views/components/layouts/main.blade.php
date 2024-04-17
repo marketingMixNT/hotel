@@ -11,34 +11,34 @@
     <meta name="description" content='@yield('description')'>
     <!--Cannonical-->
     <link rel="canonical" href="{{ url()->current() }}" />
-   <!--Favicons-->
+    <!--Favicons-->
     @include('partials.favicon')
     <!--Facebook Meta-->
     @include('partials.facebook_meta')
-    
+
     <!-- Scripts -->
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
 </head>
 
-<body >
- <!--NAVIGATION-->
- @include('shared.mobile_menu')
- @include('shared.navbar')
+<body>
+    <!--NAVIGATION-->
+    @include('shared.mobile_menu')
+    @include('shared.navbar')
 
     <!--PRELOADER-->
-    {{-- @include('shared.preloader') --}}
+    @include('shared.preloader')
 
 
 
-        {{ $slot }}
-   
+    {{ $slot }}
+
 
 
 
     <!--FOOTER-->
     @include('shared.footer')
-    @include('shared.mobile_buttons') 
+    @include('shared.mobile_buttons')
     <!--SCRIPTS-->
     <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>
 
