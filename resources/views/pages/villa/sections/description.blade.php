@@ -7,7 +7,7 @@
 
             <x-base.heading_medium class="text-fontDark">Rezerwuj</x-base.heading_medium>
 
-            <div class="flex justify-center items-center gap-4">
+            <div class="flex justify-center items-center gap-4 ">
                 <img src="{{asset('assets/icons/mountains--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">Zachwyć się elegancją w sercu natury
 
                 </span>
@@ -42,7 +42,7 @@
             </div>
 
             <div>
-                <img src="{{asset('assets/images/desktop/willaPodScietaLipa-19.jpg')}}" alt="wnętrze Willi pod Ściętą Lipą" loading="lazy" width="736" height="491">
+                <img src="{{asset('assets/images/desktop/willaPodScietaLipa-19.jpg')}}" alt="wnętrze Willi pod Ściętą Lipą" loading="lazy" width="736" height="491" class="md:opacity-0 image-animation">
             </div>
     </div>
     </div>

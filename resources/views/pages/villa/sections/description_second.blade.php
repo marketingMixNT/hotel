@@ -5,7 +5,7 @@
         <x-home.description_grid>
     
             {{-- swiper --}}
-            <div class="swiper description w-full mx-auto  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full">
+            <div class="swiper description w-full mx-auto  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
     
@@ -147,7 +147,7 @@
     
     
             {{-- swiper --}}
-            <div class="swiper description--second w-full mx-auto max-h-[600px]  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full">
+            <div class="swiper description--second w-full mx-auto max-h-[600px]  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
     

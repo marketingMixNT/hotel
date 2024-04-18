@@ -58,14 +58,14 @@
 
         {{-- img --}}
         @if (!isset($formSubmitted))
-            <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none"><img
+            <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none md:opacity-0 image-animation"><img
                     src="{{ asset('assets/images/desktop/willaPodScietaLipa-33.jpg') }}" alt=""
                     class="w-full h-full max-h-[300px] lg:max-h-none object-cover lg:min-h-[600px]"></div>
         @endif
     </div>
     {{-- img --}}
     @if (isset($formSubmitted))
-        <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none"><img
+        <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none md:opacity-0 image-animation"><img
                 src="{{ asset('assets/images/desktop/willaPodScietaLipa-33.jpg') }}" alt=""
                 class="w-full h-full max-h-[300px] lg:max-h-none object-cover lg:min-h-[600px]"></div>
     @endif

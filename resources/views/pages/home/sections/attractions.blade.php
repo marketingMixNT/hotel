@@ -11,7 +11,7 @@
 
 
     </div>
-    <div class="grid lg:grid-cols-3 gap-6 2xl:gap-12 mt-12 px-6 lg:px-0">
+    <div class="grid lg:grid-cols-3 gap-6 2xl:gap-12 mt-12 px-6 lg:px-0 md:opacity-0 image-animation">
 
 
         <x-home.attraction_card image="{{ asset('assets/images/attractions/atrakcje-4.jpg') }}" subtitle='NOCLEGI W GÓRACH'

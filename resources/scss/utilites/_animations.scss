@@ -1,5 +1,4 @@
 //NAVBAR and MOBILE MENU
-
 @keyframes show {
     0% {
      
@@ -44,4 +43,27 @@
 .menu-close {
     transition: ease, transform 1s ;
     transform: translateX(100%);
+}
+
+
+//OBSERVER
+
+
+.fade-in-fwd {
+	animation: fade-in-fwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/**
+ * ----------------------------------------
+ * animation fade-in-fwd
+ * ----------------------------------------
+ */
+ @keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }

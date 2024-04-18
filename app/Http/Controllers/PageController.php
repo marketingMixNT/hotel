@@ -11,8 +11,8 @@ class PageController extends Controller
 
     private function imageGalleryCollection()
     {
-        $bigImages = File::files(public_path("/assets/images/"));
-        $smallImages = File::files(public_path("/assets/images/mobile"));
+        $bigImages = File::files(public_path("/assets/images/gallery"));
+        $smallImages = File::files(public_path("/assets/images/gallery/thumbnails"));
 
         return collect($bigImages)->map(function ($bigImage) use ($smallImages) {
             $filename = $bigImage->getFilename();

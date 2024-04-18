@@ -6,7 +6,7 @@
         <x-base.heading_medium>Willa pod Ściętą Lipą</x-base.heading_medium>
 
 
-        <div class="swiper home-gallery mt-12">
+        <div class="swiper home-gallery mt-12 md:opacity-0 image-animation">
             <div class="swiper-wrapper">
                 <x-home.gallery_item img="{{ asset('assets/images/desktop/willaPodScietaLipa-34.jpg') }}" />
                 <x-home.gallery_item img="{{ asset('assets/images/desktop/willaPodScietaLipa-4.jpg') }}" />

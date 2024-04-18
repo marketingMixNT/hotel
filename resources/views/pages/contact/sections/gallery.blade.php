@@ -1,6 +1,6 @@
 <section class=" py-20 ">
 
-    <div class="text-center max-w-screen-2xl mx-4 sm:mx-12 lg:mx-6 2xl:mx-auto ">
+    <div class="text-center max-w-screen-2xl mx-4 sm:mx-12 lg:mx-6 2xl:mx-auto md:opacity-0 image-animation">
 
 
         <x-base.heading_medium>Willa pod Ściętą Lipą</x-base.heading_medium>

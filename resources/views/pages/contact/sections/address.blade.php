@@ -2,7 +2,7 @@
 
     <div class="grid lg:grid-cols-2">
         {{--img--}}
-        <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none"><img src="{{ asset('assets/images/desktop/willaPodScietaLipa-36.jpg') }}" alt="" class="w-full lg:h-full max-h-[300px] lg:max-h-none lg:min-h-[600px] object-cover"></div>
+        <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none md:opacity-0 image-animation"><img src="{{ asset('assets/images/desktop/willaPodScietaLipa-36.jpg') }}" alt="" class="w-full lg:h-full max-h-[300px] lg:max-h-none lg:min-h-[600px] object-cover"></div>
 
         {{--text--}}
 
