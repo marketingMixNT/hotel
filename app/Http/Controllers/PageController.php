@@ -39,10 +39,6 @@ class PageController extends Controller
     {
 
 
-        // $inside = $this->imageGalleryCollection('standard');
-        // $outside = $this->imageGalleryCollection('studio');
-        // $winter = $this->imageGalleryCollection('onebedroom');
-
         $images = $this->imageGalleryCollection();
 
         return view('pages.gallery.index',['images'=>$images]);
@@ -50,5 +46,13 @@ class PageController extends Controller
     public function contact()
     {
         return view('pages.contact.index');
+    }
+    public function privacyPolicy()
+    {
+        return view('pages.privacy_policy');
+    }
+    public function regulations()
+    {
+        return view('pages.regulations');
     }
 }

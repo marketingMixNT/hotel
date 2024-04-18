@@ -31,8 +31,8 @@
         <hr class="w-full mx-auto mt-10 mb-5 border-0 border-t border-gray-400">
         <div class="flex justify-center items-center gap-12">
 
-            <a href="" class="text-sm text-white hover-link--white">Polityka Prywatności</a>
-            <a href="" class="text-sm text-white hover-link--white">Regulamin</a>
+            <a href="{{route('privacyPolicy')}}" class="text-sm text-white hover-link--white">Polityka Prywatności</a>
+            <a href="{{route('regulations')}}" class="text-sm text-white hover-link--white">Regulamin</a>
         </div>
         <hr class="w-full mx-auto my-5 border-0 border-t border-gray-400">
  {{-- AUTHORS --}}

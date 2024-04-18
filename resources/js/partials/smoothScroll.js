@@ -22,9 +22,9 @@ function SmoothScroll(target, speed, smooth) {
             if(e.wheelDelta)
                 return e.wheelDelta/e.detail/40 * (e.detail>0 ? 1 : -1); // Opera
             else
-                return -e.detail/3; // Firefox
+                return -e.detail/3;
         }else
-            return e.wheelDelta/120; // IE,Safari,Chrome
+            return e.wheelDelta/120; 
     }
 
     function update() {
@@ -51,4 +51,4 @@ function SmoothScroll(target, speed, smooth) {
 }
 
 // Usage
-new SmoothScroll(document, 30, 30);
+new SmoothScroll(document, 50, 30);
