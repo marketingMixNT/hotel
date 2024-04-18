@@ -1,14 +1,14 @@
 <div
     class="flex flex-col justify-between items-center px-4 sm:px-8 py-20 h-[70vh] w-full bg-cover bg-center bg-no-repeat bg-fixed bg-gray-400 bg-blend-multiply 
-    bg-[url('/public/assets/images/mobile/willaPodScietaLipa-32.jpg')]
-    md:bg-[url('/public/assets/images/desktop/willaPodScietaLipa-32.jpg')]
-    xl:bg-[url('/public/assets/images/willaPodScietaLipa-32.jpg')] ">
+    bg-[url('/public/assets/images/mobile/willaPodScietaLipa-36.jpg')]
+    md:bg-[url('/public/assets/images/desktop/willaPodScietaLipa-36.jpg')]
+    xl:bg-[url('/public/assets/images/willaPodScietaLipa-36.jpg')] ">
 
     <x-nav.navbar_hero />
 
     <div class="flex flex-col justify-center items-center gap-12 text-center ">
 
-        <h1 class="text-5xl lg:text-7xl text-fontLight mb-32" >Zobacz piękno Tatr </h1>
+        <h1 class="text-5xl lg:text-7xl text-fontLight mb-32" >Kontakt</h1>
         <x-base.button-link  class="btn-white md:hidden">Zarezerwuj</x-base.button-link>
     </div>
 

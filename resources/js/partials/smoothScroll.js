@@ -51,4 +51,4 @@ function SmoothScroll(target, speed, smooth) {
 }
 
 // Usage
-new SmoothScroll(document, 50, 30);
+new SmoothScroll(document, 80, 20);
