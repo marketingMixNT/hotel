@@ -2,6 +2,11 @@
 
 
 <ul class="hidden xl:flex flex-row gap-4 text-fontLight ">
-    <li  class="hover:text-primary-600 duration-300 cursor-pointer">PL</li>
-    <li class="hover:text-primary-600 duration-300 cursor-pointer">EN</li>
+    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+        <li>
+            <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" class="hover:text-primary-600 duration-300 uppercase">
+                {{ $properties['slug'] }}
+            </a>
+        </li>
+    @endforeach
 </ul>
