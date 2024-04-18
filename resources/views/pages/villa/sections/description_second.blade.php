@@ -5,7 +5,7 @@
         <x-home.description_grid>
     
             {{-- swiper --}}
-            <div class="swiper description w-full mx-auto  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
+            <div class="swiper description w-full mx-auto  md:w-3/4 xl:w-full max-h-[700px] h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
     
@@ -104,7 +104,7 @@
             </div>
     
             {{-- text --}}
-            <div class="flex flex-col justify-center items-center text-center gap-10 py-16">
+            <div class="flex flex-col items-center text-center gap-10 py-16">
     
     
                 {{-- <span
@@ -127,7 +127,7 @@
     {{--SECOND GRID--}}
         <x-home.description_grid>
             {{--text--}}
-            <div class="flex flex-col justify-center items-start text-left gap-6 py-16 order-1 xl:order-none">
+            <div class="flex flex-col items-start text-left gap-6 py-16 order-1 xl:order-none">
                 <x-base.heading_big class="text-fontDark">Relaks i radość</x-base.heading_big>
                 <x-base.heading_small>Zabawa i Rozrywka w Willi Pod Ściętą Lipą
 
@@ -147,7 +147,7 @@
     
     
             {{-- swiper --}}
-            <div class="swiper description--second w-full mx-auto max-h-[600px]  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
+            <div class="swiper description--second w-full mx-auto max-h-[700px]  md:w-3/4 xl:w-full  h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
     

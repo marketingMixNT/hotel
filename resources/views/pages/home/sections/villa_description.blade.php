@@ -5,7 +5,7 @@
     <x-home.description_grid>
 
         {{-- swiper --}}
-        <div class="swiper description w-full mx-auto  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
+        <div class="swiper description w-full mx-auto h-full xl:h-4/5 2xl:h-full  md:w-3/4 2xl:w-full max-h-[700px]  md:opacity-0 image-animation">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
 
@@ -54,7 +54,7 @@
         </div>
 
         {{-- text --}}
-        <div class="flex flex-col justify-center items-center text-center gap-10 py-16">
+        <div class="flex flex-col  items-center text-center gap-10 py-16">
 
 
             <span
@@ -84,7 +84,7 @@
 {{--SECOND GRID--}}
     <x-home.description_grid>
         {{--text--}}
-        <div class="flex flex-col justify-center items-start text-left gap-6 py-16 order-1 xl:order-none">
+        <div class="flex flex-col  items-start text-left gap-6 py-16 order-1 xl:order-none">
             <x-base.heading_big class="text-fontDark">Luksus i Odpoczynek</x-base.heading_big>
             <x-base.heading_small>Zrelaksuj Się w
                 Ekskluzywnych Warunkach na Tle Tatr</x-base.heading_small>
@@ -112,7 +112,7 @@
 
 
         {{-- swiper --}}
-        <div class="swiper description--second w-full mx-auto  md:w-3/4 xl:w-full my-auto h-full xl:h-4/5 2xl:h-full md:opacity-0 image-animation">
+        <div class="swiper description--second w-full mx-auto  md:w-3/4 xl:w-full  h-full xl:h-4/5 2xl:h-full max-h-[700px] md:opacity-0 image-animation py-0 ">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
 

@@ -2,10 +2,9 @@
 
     {{-- @section('title', __('home.title'))
     @section('description', __('home.description')) --}}
-    @section('title', 'Galeria Willi pod Ściętą Lipą: odkryj piękno naszej Willi w zdjęciach')
+    @section('title', 'Kontakt z Willą Pod Ściętą Lipą – Zadzwoń lub Napisz do Nas')
     @section('description',
-        'Poznaj szczegóły oferty Willi pod Ściętą Lipą. Luksusowe zakwaterowanie, wyjątkowe atrakcje
-        i bezpośredni kontakt z naturą. Idealne miejsce dla rodzin i miłośników gór.')
+        'Masz pytania dotyczące rezerwacji lub potrzebujesz dodatkowych informacji? Skontaktuj się z Willą Pod Ściętą Lipą za pomocą formularza kontaktowego, telefonu lub e-maila. Jesteśmy tutaj, aby pomóc!.')
 
 
 @include ('pages.contact.sections.hero')
