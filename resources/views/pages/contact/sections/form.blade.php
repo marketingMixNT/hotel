@@ -47,10 +47,20 @@
                     @enderror
                     <x-base.textarea name='content' id='content' for='content' required>Wiadomość</x-base.textarea>
 
+                    <div class="text-xs font-AktivGrotesk pt-2">
 
+                        Ta strona jest chroniona przez reCAPTCHA oraz obowiązują ją
+                        <a href="https://policies.google.com/privacy">Polityka prywatności</a> oraz
+                        <a href="https://policies.google.com/terms">Warunki korzystania z usługi</a> Google.
+                    </div>
+<div class="pt-2">
 
+   
+
+   
+</div>
                     <button type="submit"
-                        class="border py-4 px-10 uppercase text-sm font-semibold  duration-300 border-primary-400 bg-primary-400 text-fontLight hover:bg-secondary-200 mt-6">Wyślij</button>
+                        class="btn btn-gold mt-4">Wyślij</button>
 
                 </form>
         </div>
@@ -59,14 +69,14 @@
         {{-- img --}}
         @if (!isset($formSubmitted))
             <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none md:opacity-0 image-animation"><img
-                    src="{{ asset('assets/images/desktop/willaPodScietaLipa-33.jpg') }}" alt=""
+                    src="{{ asset('assets/images/desktop/willaPodScietaLipa-33.jpg') }}" alt="widok z Willa pod Ściętą Lipą w Ząb" width="536" height="662" loading="lazy"
                     class="w-full h-full max-h-[300px] lg:max-h-none object-cover lg:min-h-[600px]"></div>
         @endif
     </div>
     {{-- img --}}
     @if (isset($formSubmitted))
         <div class="h-full lg:ml-10 xl:ml-20 order-1 lg:order-none md:opacity-0 image-animation"><img
-                src="{{ asset('assets/images/desktop/willaPodScietaLipa-33.jpg') }}" alt=""
+                src="{{ asset('assets/images/desktop/willaPodScietaLipa-33.jpg') }}" alt="widok z Willa pod Ściętą Lipą w Ząb" width="536" height="662" loading="lazy"
                 class="w-full h-full max-h-[300px] lg:max-h-none object-cover lg:min-h-[600px]"></div>
     @endif
 

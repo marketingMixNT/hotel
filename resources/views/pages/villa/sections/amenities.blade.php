@@ -1,4 +1,8 @@
-<x-base.section class="max-w-screen-2xl 2xl:mx-auto flex flex-col bg-bgLight-600 px-12 lg:px-64">
+<x-base.section class=" bg-bgLight-600 ">
+
+    <div class="max-w-screen-2xl 2xl:mx-auto flex flex-col bg-bgLight-600 px-12 lg:px-64 py-10    mx-4 sm:mx-12 lg:mx-6">
+
+   
 
     <x-base.heading_medium class="text-primary-400">Wyposażenie</x-base.heading_medium>
     <div class="grid sm:grid-cols-2  md:grid-cols-3 xl:grid-cols-4 gap-x-2 gap-y-12 mt-12">
@@ -30,4 +34,5 @@
         <x-amenities_box icon="{{ asset('assets/icons/amenities/iron.svg') }}" title="żelazko" />
     </div>
 
+</div>
 </x-base.section>

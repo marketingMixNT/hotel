@@ -1,8 +1,8 @@
 <div
     class="flex flex-col justify-between items-center px-4 sm:px-8 py-20 h-[70vh] w-full bg-cover bg-center bg-no-repeat bg-fixed bg-gray-400 bg-blend-multiply 
-    bg-[url('/public/assets/images/mobile/willaPodScietaLipa-36.jpg')]
-    md:bg-[url('/public/assets/images/desktop/willaPodScietaLipa-36.jpg')]
-    xl:bg-[url('/public/assets/images/willaPodScietaLipa-36.jpg')] ">
+    bg-[url('/public/assets/images/hero/hero-3--mobile.jpeg')]
+    md:bg-[url('/public/assets/images/hero/hero-3--desktop.jpeg')]
+    xl:bg-[url('/public/assets/images/hero/hero-3--full.jpeg')] ">
 
     <x-nav.navbar_hero />
 
