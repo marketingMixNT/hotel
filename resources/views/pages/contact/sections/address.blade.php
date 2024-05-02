@@ -12,7 +12,7 @@
 
             <div class="flex flex-col gap-2">
 
-                <h2 class="uppercase font-AktivGrotesk text-base  tracking-widest text-primary-400 ">Nasz adres
+                <h2 class="uppercase font-AktivGrotesk text-base  tracking-widest text-primary-400 ">{{__('contact.our-address')}}
                 </h2>
 
                 <span class="font-JazminThin text-base">św. Anny 2</span>
@@ -22,7 +22,7 @@
 
             <div class="flex flex-col justify-start items-start gap-2">
 
-                <h2 class="uppercase font-AktivGrotesk text-base  tracking-widest text-primary-400 ">Skontaktuj się z nami
+                <h2 class="uppercase font-AktivGrotesk text-base  tracking-widest text-primary-400 ">{{__('contact.contact-with-us')}}
                 </h2>
 
                 <a href="tel:+48606708024" class="font-JazminThin text-base hover-link">+48 606 708 024

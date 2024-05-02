@@ -4,21 +4,21 @@
         href=""
         target="_blank"
         image="{{asset('assets/icons/mobile-buttons/click.svg')}}">
-       Zarezerwuj</x-mobile_buttons_item>
+      {{__('shared.mobile_buttons.item-one')}}</x-mobile_buttons_item>
     <x-mobile_buttons_item
         href="{{route('gallery')}}"
         target="_blank"
         image="{{asset('assets/icons/mobile-buttons/gallery.svg')}}">
-        <span>Galeria</span></x-mobile_buttons_item>
+        <span>  {{__('shared.mobile_buttons.item-two')}}</span></x-mobile_buttons_item>
     <x-mobile_buttons_item
         href="https://maps.app.goo.gl/5EzjAy6uCrdJiejeA"
         target="_blank"
         image="{{asset('assets/icons/mobile-buttons/pin.svg')}}">
-        <span>Lokalizacja</span></x-mobile_buttons_item>
+        <span>  {{__('shared.mobile_buttons.item-three')}}</span></x-mobile_buttons_item>
     <x-mobile_buttons_item
         href="tel:+48606708024"
         target="_blank"
         image="{{asset('assets/icons/mobile-buttons/phone.svg')}}">
-        <span>Kontakt</span></x-mobile_buttons_item>
+        <span>  {{__('shared.mobile_buttons.item-four')}}</span></x-mobile_buttons_item>
 
 </nav>

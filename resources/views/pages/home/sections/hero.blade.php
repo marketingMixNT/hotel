@@ -9,7 +9,7 @@
     <div class="flex flex-col justify-center items-center gap-12 text-center ">
 
         <h1 class="text-5xl lg:text-7xl text-fontLight mb-32" >{{ __('home.header.title') }}</h1>
-        <x-base.button-link  class="btn-white md:hidden">Zarezerwuj</x-base.button-link>
+        <x-base.button-link  class="btn-white md:hidden">{{ __('home.header.book') }}</x-base.button-link>
     </div>
 
     <!--RESERVATION PANEL-->

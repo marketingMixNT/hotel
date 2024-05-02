@@ -7,31 +7,31 @@
     <x-base.heading_medium class="text-primary-400">Wyposażenie</x-base.heading_medium>
     <div class="grid sm:grid-cols-2  md:grid-cols-3 xl:grid-cols-4 gap-x-2 gap-y-12 mt-12">
 
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/house.svg') }}" title="dom na wyłączność" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/resize.svg') }}" title="200 m² powierzchni" />
-        <x-amenities_box icon="{{ asset('assets/icons//amenities/mountains.svg') }}" title="widok na góry" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/garden.svg') }}" title="ogród" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/house.svg') }}" title="{{__('villa.amenities.one')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/resize.svg') }}" title="{{__('villa.amenities.two')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons//amenities/mountains.svg') }}" title="{{__('villa.amenities.three')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/garden.svg') }}" title="{{__('villa.amenities.four')}}" />
 
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/bed.svg') }}" title="4 sypialnie" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/chimney.svg') }}" title="kominek" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/terrace.svg') }}" title="taras" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/grill.svg') }}" title="grill" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/bed.svg') }}" title="{{__('villa.amenities.five')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/chimney.svg') }}" title="{{__('villa.amenities.six')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/terrace.svg') }}" title="{{__('villa.amenities.seven')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/grill.svg') }}" title="{{__('villa.amenities.eight')}}" />
         
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/shower.svg') }}" title="prysznic" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/bath.svg') }}" title="wanna" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/wifi.svg') }}" title="Wi-Fi" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/tv.svg') }}" title="telewizor" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/shower.svg') }}" title="p{{__('villa.amenities.nine')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/bath.svg') }}" title="{{__('villa.amenities.ten')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/wifi.svg') }}" title="{{__('villa.amenities.eleven')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/tv.svg') }}" title="{{__('villa.amenities.twelve')}}" />
 
         
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/kitchen.svg') }}" title="kuchnia" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/fridge.svg') }}" title="lodówka" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/coffee.svg') }}" title="ekspres do kawy" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/boiler.svg') }}" title="czajnik elektryczny" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/kitchen.svg') }}" title="{{__('villa.amenities.thirteen')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/fridge.svg') }}" title="{{__('villa.amenities.fourteen')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/coffee.svg') }}" title="{{__('villa.amenities.fifteen')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/boiler.svg') }}" title="{{__('villa.amenities.sixteen')}}" />
         
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/microwave.svg') }}" title="mikrofalówka" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/waschingMachine.svg') }}" title="pralka" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/dryer.svg') }}" title="suszarka do włosów" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/iron.svg') }}" title="żelazko" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/microwave.svg') }}" title="{{__('villa.amenities.seventeen')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/waschingMachine.svg') }}" title="{{__('villa.eighteen')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/dryer.svg') }}" title="{{__('villa.amenities.nineteen')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/iron.svg') }}" title="{{__('villa.amenities.twenty')}}" />
     </div>
 
 </div>

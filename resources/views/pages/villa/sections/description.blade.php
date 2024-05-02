@@ -5,27 +5,24 @@
 
         <div class="border hidden  sticky top-32 h-[400px] p-12 xl:flex flex-col gap-7">
 
-            <x-base.heading_medium class="text-fontDark">Rezerwuj</x-base.heading_medium>
+            <x-base.heading_medium class="text-fontDark">{{__('villa.villa_desc.card-title')}}</x-base.heading_medium>
 
             <div class="flex justify-center items-center gap-4 ">
-                <img src="{{asset('assets/icons/mountains--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">Zachwyć się elegancją w sercu natury
+                <img src="{{asset('assets/icons/mountains--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">{{__('villa.illa_desc.card-text-first')}}
 
                 </span>
             </div>
             <div class="flex justify-center items-center gap-4">
-                <img src="{{asset('assets/icons/house--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">Luksusowy wypoczynek na jaki zasługujesz</span>
+                <img src="{{asset('assets/icons/house--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">{{__('villa.villa_desc.card-text-second')}}</span>
             </div>
             <div class="flex justify-center items-center gap-4 mb-5">
-                <img src="{{asset('assets/icons/thumb--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">Niezapomniane wrażenia na wyciągnięcie ręki</span>
+                <img src="{{asset('assets/icons/thumb--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">{{__('villa.villa_desc.card-text-third')}}</span>
             </div>
             
-            <x-base.link href="#" >Zarezerwuj</x-base.link>
+            <x-base.link href="#" >{{__('villa.villa_desc.card-book')}}</x-base.link>
         </div>
         <div class="xl:col-span-2 flex flex-col  gap-12 px-12">
-            <x-home.description_text>Willa Pod Ściętą Lipą w Zębie oferuje luksusowe zakwaterowanie z przepięknymi
-                widokami na Tatry. Nasza willa zapewnia dostęp do tarasu, bezpłatny prywatny parking oraz WiFi, a także
-                wyposażenie takie jak w pełni funkcjonalna kuchnia i wspólny salon. Idealne miejsce na wypoczynek w
-                górach w każdej porze roku.
+            <x-home.description_text>{{__('villa.villa_desc.text')}}
             </x-home.description_text>
 
             <div class="flex gap-12">
@@ -36,7 +33,7 @@
                 </div>
                 <div class="flex flex-col gap-1 justify-center items-center">
                     <span class="font-JazminThin text-primary-400 text-4xl">200 m²</span>
-                    <span class="text-sm uppercase text-gray-500">powierzchnia</span>
+                    <span class="text-sm uppercase text-gray-500">{{__('villa.villa_desc.surface')}}</span>
                 </div>
                 
             </div>

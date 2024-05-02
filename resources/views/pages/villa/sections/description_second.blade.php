@@ -112,13 +112,13 @@
     
     
     
-                <x-base.heading_big class="text-primary-400">Komfort i elegancja willi pod ściętą lipą</x-base.heading_big>
+                <x-base.heading_big class="text-primary-400">{{__('villa.desc_second.title')}}</x-base.heading_big>
                 <div class="flex flex-col justify-center items-center gap-2">
     
-                    <x-home.description_text>Willa Pod Ściętą Lipą to przestrzeń zaprojektowana z myślą o wygodzie i luksusie. Nasza willa oferuje gościom przestronne, elegancko urządzone pokoje z komfortowymi łóżkami, zapewniającymi doskonały wypoczynek.</x-home.description_text>
+                    <x-home.description_text>{{__('villa.desc_second.text-one')}}</x-home.description_text>
     
-                    <x-home.description_text>Każdy z pokoi posiada dostęp do nowoczesnej łazienki, wyposażonej w wysokiej klasy armaturę i delikatne wykończenia. W pełni funkcjonalna kuchnia pozwala na przygotowanie ulubionych posiłków, a wspólne posiłki można celebrować w przestronnej jadalni.</x-home.description_text>
-                    <x-home.description_text>Willa dysponuje także tarasem widokowym, z którego roztacza się zachwycający widok na tatrzańskie szczyty, idealnym miejscem na poranną kawę czy wieczorny relaks.</x-home.description_text>
+                    <x-home.description_text>{{__('villa.desc_second.text-two')}}</x-home.description_text>
+                    <x-home.description_text>{{__('villa.desc_second.text-three')}}</x-home.description_text>
                 </div>
             </div>
     
@@ -128,21 +128,21 @@
         <x-home.description_grid>
             {{--text--}}
             <div class="flex flex-col items-start text-left gap-6 py-16 order-1 xl:order-none">
-                <x-base.heading_big class="text-fontDark">Relaks i radość</x-base.heading_big>
-                <x-base.heading_small>Zabawa i Rozrywka w Willi Pod Ściętą Lipą
+                <x-base.heading_big class="text-fontDark">{{__('villa.desc_second.subtitle-second')}}</x-base.heading_big>
+                <x-base.heading_small>{{__('villa.desc_second.title-second')}}
 
                 </x-base.heading_small>
                 </span>
                 <div>
     
                 </div>
-                <x-home.description_text>Willa Pod Ściętą Lipą myśli także o naszych najmłodszych gościach. Specjalnie dla nich przygotowana została sala zabaw, która zapewni godziny świetnej zabawy w bezpiecznym i stymulującym środowisku.
+                <x-home.description_text>{{__('villa.desc_second.text-four')}}
     
                 </x-home.description_text>
     
-                <x-home.description_text>Dla starszych dzieci i dorosłych dostępna jest sala gier z bilardem oraz piłkarzykami, gdzie można spędzić czas rywalizując i relaksując się w przyjaznej atmosferze. To idealne miejsce dla rodzin, które chcą aktywnie spędzać czas nawet podczas chłodniejszych dni.
+                <x-home.description_text>{{__('villa.desc_second.text-five')}}
                 </x-home.description_text>
-                <x-base.link href="{{route('gallery')}}">Zobacz galerię</x-base.link>
+                <x-base.link href="{{route('gallery')}}">{{__('villa.desc_second.check-gallery')}}</x-base.link>
             </div>
     
     

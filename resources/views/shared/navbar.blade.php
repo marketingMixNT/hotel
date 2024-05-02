@@ -4,7 +4,7 @@
 
     <div>
 
-        <x-base.button-link class="btn-gold hidden lg:block">Zarezerwuj</x-base.button-link>
+        <x-base.button-link class="btn-gold hidden lg:block">{{__('shared.nav.book')}}</x-base.button-link>
     </div>
 
 
@@ -18,9 +18,9 @@
 
 
     <ul class="hidden sm:flex justify-center items-center gap-10">
-        <li><a href="{{route('villa')}}" class="hover-link text-xl">Willa</a></li>
-        <li><a href="{{route('gallery')}}" class="hover-link text-xl">Galeria</a></li>
-        <li><a href="{{route('contact')}}" class="hover-link text-xl">Kontakt</a></li>
+        <li><a href="{{route('villa')}}" class="hover-link text-xl">{{__('shared.nav.item-one')}}</a></li>
+        <li><a href="{{route('gallery')}}" class="hover-link text-xl">{{__('shared.nav.item-two')}}</a></li>
+        <li><a href="{{route('contact')}}" class="hover-link text-xl">{{__('shared.nav.item-three')}}</a></li>
     </ul>
 
     <x-nav.hamburger class="sm:hidden" />

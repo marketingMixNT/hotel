@@ -6,7 +6,7 @@
 
             {{-- SOCIAL --}}
             <div class="flex flex-col justify-start items-center md:items-start gap-6 order-1 md:order-none ">
-                <h2 class="text-fontDark text-xl font-JazminThin">Znajdź nas</h2>
+                <h2 class="text-fontDark text-xl font-JazminThin">{{__('shared.footer.find-us')}}</h2>
                 <div class="flex  items-center gap-4">
                     <a href="https://www.facebook.com/willapodscietalipa/" target="_blank"><img src="{{ asset('assets/icons/facebook--brown.svg') }}" alt="facebook Willa pod Ściętą Lipą" class="w-5 hover:scale-110 duration-300"></a>
                    
@@ -19,7 +19,7 @@
             </a>
             {{-- CONTACT --}}
             <div class="flex flex-col justify-start items-center md:items-end gap-6">
-                <h2 class="text-fontDark text-xl font-JazminThin">Kontakt</h2>
+                <h2 class="text-fontDark text-xl font-JazminThin">{{__('shared.footer.contact')}}</h2>
 
                 <a href="https://maps.app.goo.gl/5EzjAy6uCrdJiejeA" target="_blank" class="text-sm text-fontDark hover-link--white">św. Anny 2, 34-521 Ząb</a>
                 <a href="tel:+48606708024" class="text-sm text-fontDark hover-link--white">+48 606 708 024</a>
@@ -30,8 +30,8 @@
         <hr class="w-full mx-auto mt-10 mb-5 border-0 border-t border-secondary-400">
         <div class="flex justify-center items-center gap-12">
 
-            <a href="{{route('privacyPolicy')}}" class="text-sm text-fontDark hover-link--white">Polityka Prywatności</a>
-            <a href="{{route('regulations')}}" class="text-sm text-fontDark hover-link--white">Regulamin</a>
+            <a href="{{route('privacyPolicy')}}" class="text-sm text-fontDark hover-link--white">{{__('shared.footer.privacy-policy')}}</a>
+            <a href="{{route('regulations')}}" class="text-sm text-fontDark hover-link--white">{{__('shared.footer.regulations')}}</a>
         </div>
         <hr class="w-full mx-auto my-5 border-0 border-t border-secondary-400">
  {{-- AUTHORS --}}

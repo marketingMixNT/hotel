@@ -1,16 +1,15 @@
 <x-layouts.main>
 
-    {{-- @section('title', __('home.title'))
-    @section('description', __('home.description')) --}}
-    @section('title', 'Galeria Willi pod Ściętą Lipą: odkryj piękno naszej Willi w zdjęciach')
-    @section('description',
-        'Poznaj szczegóły oferty Willi pod Ściętą Lipą. Luksusowe zakwaterowanie, wyjątkowe atrakcje
-        i bezpośredni kontakt z naturą. Idealne miejsce dla rodzin i miłośników gór.')
+    @section('title', __('gallery.title'))
+    @section('description', __('gallery.description'))
+    
 
 
         <main>
 
             @include ('pages.gallery.sections.hero')
+
+            
             <x-base.section class="max-w-screen-2xl 2xl:mx-auto flex flex-col  2xl:space-y-36 relative">
 
                 <div class="container">

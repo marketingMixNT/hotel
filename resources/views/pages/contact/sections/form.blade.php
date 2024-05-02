@@ -9,7 +9,7 @@
         {{-- text --}}
 
         <div class="lg:px-16 ">
-            <h2 class="text-4xl 2xl:text-5xl font-JazminThin  mb-16 leading-10">Formularz <br>kontaktowy</h2>
+            <h2 class="text-4xl 2xl:text-5xl font-JazminThin  mb-16 leading-10">{{__('contact.form.form')}}<br>{{__('contact.form.contact')}}</h2>
 
             @if (isset($formSubmitted))
                 <script>
@@ -27,31 +27,28 @@
                 <div id="formContact" class="flex  h-full ">
                     <div class=" flex flex-col gap-4 text-center my-6">
 
-                        <h3 class="text-5xl font-bold mb-2 ">Dziękujemy za wiadomość!</h3>
-                        <span class="text-xl font-bold">Odpowiemy najszybciej jak to możliwe!</span>
+                        <h3 class="text-5xl font-bold mb-2 ">{{__('contact.form.success')}}</h3>
+                        <span class="text-xl font-bold">{{__('contact.form.success-second')}}</span>
                     </div>
                 </div>
             @else
                 <form method="post" action="{{ route('contact_form') }}" id="contactForm" {{-- <form method="post" action="#" id="contactForm" --}}
                     class="">
                     @csrf
-                    <x-base.input type='text' name='name' id='name' for='name' required>Imię
-                        i
-                        nazwisko</x-base.input>
+                    <x-base.input type='text' name='name' id='name' for='name' required>{{__('contact.form.name')}}</x-base.input>
                     <x-base.input type='email' name='email' id='email' for='email'
                         required>Email</x-base.input>
-                    <x-base.input type='tel' name='tel' id='tel' for='tel'>Numer
-                        telefonu</x-base.input>
+                    <x-base.input type='tel' name='tel' id='tel' for='tel'>{{__('contact.form.phone')}}</x-base.input>
                     @error('tel')
-                        <p class="text-red-600 text-xs">Numer telefonu nie może zawierać liter</p>
+                        <p class="text-red-600 text-xs">{{__('contact.form.phone-error')}}</p>
                     @enderror
-                    <x-base.textarea name='content' id='content' for='content' required>Wiadomość</x-base.textarea>
+                    <x-base.textarea name='content' id='content' for='content' required>{{__('contact.form.message')}}</x-base.textarea>
 
                     <div class="text-xs font-AktivGrotesk pt-2">
 
-                        Ta strona jest chroniona przez reCAPTCHA oraz obowiązują ją
-                        <a href="https://policies.google.com/privacy">Polityka prywatności</a> oraz
-                        <a href="https://policies.google.com/terms">Warunki korzystania z usługi</a> Google.
+                        {{__('contact.form.captcha.text')}}
+                        <a href="https://policies.google.com/privacy">{{__('contact.form.captcha.privacy-policy')}}</a> {{__('contact.form.captcha.and')}}
+                        <a href="https://policies.google.com/terms">{{__('contact.form.captcha.terms-of-service')}}</a> Google.
                     </div>
 <div class="pt-2">
 
@@ -60,7 +57,7 @@
    
 </div>
                     <button type="submit"
-                        class="btn btn-gold mt-4">Wyślij</button>
+                        class="btn btn-gold mt-4">{{__('contact.form.send')}}</button>
 
                 </form>
         </div>

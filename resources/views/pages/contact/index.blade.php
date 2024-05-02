@@ -4,7 +4,7 @@
     @section('description', __('home.description')) --}}
     @section('title', 'Kontakt z Willą Pod Ściętą Lipą – Zadzwoń lub Napisz do Nas')
     @section('description',
-        'Masz pytania dotyczące rezerwacji lub potrzebujesz dodatkowych informacji? Skontaktuj się z Willą Pod Ściętą Lipą za pomocą formularza kontaktowego, telefonu lub e-maila. Jesteśmy tutaj, aby pomóc!.')
+        'Masz pytania dotyczące rezerwacji lub potrzebujesz dodatkowych informacji? Skontaktuj się z Willą Pod Ściętą Lipą za pomocą formularza kontaktowego, telefonu lub e-maila. Jesteśmy tutaj, aby pomóc!')
 
 
 @include ('pages.contact.sections.hero')

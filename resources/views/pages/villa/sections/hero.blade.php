@@ -8,8 +8,8 @@
 
     <div class="flex flex-col justify-center items-center gap-12 text-center ">
 
-        <h1 class="text-5xl lg:text-7xl text-fontLight mb-32" >Poczuj Magię Tatr </h1>
-        <x-base.button-link  class="btn-white md:hidden">Zarezerwuj</x-base.button-link>
+        <h1 class="text-5xl lg:text-7xl text-fontLight mb-32" >{{__('villa.hero.title')}}</h1>
+        <x-base.button-link  class="btn-white md:hidden">{{__('villa.hero.book')}}</x-base.button-link>
     </div>
 
     <!--RESERVATION PANEL-->
