@@ -47,7 +47,7 @@
                     <div class="text-xs font-AktivGrotesk pt-2">
 
                         {{__('contact.form.captcha.text')}}
-                        <a href="https://policies.google.com/privacy">{{__('contact.form.captcha.privacy-policy')}}</a> {{__('contact.form.captcha.and')}}
+                        <a href="https://policies.google.com/privacy">{{__('contact.form.captcha.privacy_policy')}}</a> {{__('contact.form.captcha.and')}}
                         <a href="https://policies.google.com/terms">{{__('contact.form.captcha.terms-of-service')}}</a> Google.
                     </div>
 <div class="pt-2">

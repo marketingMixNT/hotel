@@ -31,7 +31,7 @@
         <div class="flex justify-center items-center gap-12">
 
             <a href="{{route('privacyPolicy')}}" class="text-sm text-fontDark hover-link">{{__('shared.footer.privacy-policy')}}</a>
-            <a href="{{route('regulations')}}" class="text-sm text-fontDark hover-link">{{__('shared.footer.regulations')}}</a>
+            {{-- <a href="{{route('regulations')}}" class="text-sm text-fontDark hover-link">{{__('shared.footer.regulations')}}</a> --}}
         </div>
         <hr class="w-full mx-auto my-5 border-0 border-t border-secondary-400">
  {{-- AUTHORS --}}
