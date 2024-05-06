@@ -90,7 +90,7 @@
 
             <x-home.description_text>{{__('home.villa_description.text-fifth')}}
             </x-home.description_text>
-            <x-base.link href="">{{__('home.villa_description.find-out-more')}}</x-base.link>
+            <x-base.link href="{{route('villa')}}">{{__('home.villa_description.find-out-more')}}</x-base.link>
         </div>
 
 

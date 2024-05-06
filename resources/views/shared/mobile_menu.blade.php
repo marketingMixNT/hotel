@@ -4,7 +4,7 @@
 
 
     <ul class="flex flex-col justify-center items-center gap-10">
-        <x-menu.mobile_menu_item href="#">{{__('shared.mobile_menu.item-one')}}</x-menu.mobile_menu_item>
+        <x-menu.mobile_menu_item href="https://www.booking.com/hotel/pl/willa-pod-scieta-lipa.pl.html">{{__('shared.mobile_menu.item-one')}}</x-menu.mobile_menu_item>
         <x-menu.mobile_menu_item href="{{__('shared.mobile_menu.item-two')}}">Willa</x-menu.mobile_menu_item>
         <x-menu.mobile_menu_item href="{{__('shared.mobile_menu.item-three')}}">Galeria</x-menu.mobile_menu_item>
         <x-menu.mobile_menu_item href="{{__('shared.mobile_menu.item-four')}}">Kontakt</x-menu.mobile_menu_item>

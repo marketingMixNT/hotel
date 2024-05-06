@@ -29,7 +29,7 @@
         <x-amenities_box icon="{{ asset('assets/icons/amenities/boiler.svg') }}" title="{{__('villa.amenities.sixteen')}}" />
         
         <x-amenities_box icon="{{ asset('assets/icons/amenities/microwave.svg') }}" title="{{__('villa.amenities.seventeen')}}" />
-        <x-amenities_box icon="{{ asset('assets/icons/amenities/waschingMachine.svg') }}" title="{{__('villa.eighteen')}}" />
+        <x-amenities_box icon="{{ asset('assets/icons/amenities/waschingMachine.svg') }}" title="{{__('villa.amenities.eighteen')}}" />
         <x-amenities_box icon="{{ asset('assets/icons/amenities/dryer.svg') }}" title="{{__('villa.amenities.nineteen')}}" />
         <x-amenities_box icon="{{ asset('assets/icons/amenities/iron.svg') }}" title="{{__('villa.amenities.twenty')}}" />
     </div>

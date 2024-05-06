@@ -19,7 +19,7 @@
                 <img src="{{asset('assets/icons/thumb--gold.svg')}}" alt="" class="w-8"> <span class="text-sm font-AktivGrotesk">{{__('villa.villa_desc.card-text-third')}}</span>
             </div>
             
-            <x-base.link href="#" >{{__('villa.villa_desc.card-book')}}</x-base.link>
+            <x-base.link href="https://www.booking.com/hotel/pl/willa-pod-scieta-lipa.pl.html" target="_blank" >{{__('villa.villa_desc.card-book')}}</x-base.link>
         </div>
         <div class="xl:col-span-2 flex flex-col  gap-12 px-12">
             <x-home.description_text>{{__('villa.villa_desc.text')}}

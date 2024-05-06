@@ -4,7 +4,7 @@
 
     <div>
 
-        <x-base.button-link class="btn-gold hidden lg:block">{{__('shared.nav.book')}}</x-base.button-link>
+        <x-base.button-link href="https://www.booking.com/hotel/pl/willa-pod-scieta-lipa.pl.html" target="_blank" class="btn-gold hidden lg:block">{{__('shared.nav.book')}}</x-base.button-link>
     </div>
 
 
